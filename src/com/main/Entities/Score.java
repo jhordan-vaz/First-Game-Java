@@ -11,7 +11,4 @@ public class Score {
     public Integer getScore() {
         return score;
     }
-    public void() {
-        return score;
-    }
 }
