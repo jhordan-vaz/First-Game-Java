@@ -1,14 +1,19 @@
 package com.main.Entities;
 
-public class Score {
+import java.awt.*;
 
-    private Integer score;
+public class Score extends Rectangle {
 
-    public Score(Integer score) {
-        this.score = score;
+    static int GameWIDTH;
+    static int GameHEIGHT;
+    int player1;
+    int player2;
+
+    public Score(int gameWIDTH, int gameHEIGHT) {
+
     }
 
-    public Integer getScore() {
-        return score;
+    public void drawing(Graphics g) {
+
     }
 }
